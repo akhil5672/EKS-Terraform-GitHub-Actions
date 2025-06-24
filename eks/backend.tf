@@ -7,8 +7,8 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "akhil-s3-demo-xyz3"
-    region         = "us-west-2"
+    bucket         = "akhil-s3-demo-123"
+    region         = "us-east-1"
     key            = "eks/terraform.tfstate"
     dynamodb_table = "terraform-lock"
     encrypt        = true
